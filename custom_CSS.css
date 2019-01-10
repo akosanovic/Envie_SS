@@ -1,21 +1,163 @@
-/*Remove extra spacing under overhanging image index section*/ .homepage .Index-page--has-image:first-of-type .Index-page-content { padding-bottom: 0; }
+/*Remove extra spacing under overhanging image index section*/
 
-/*Summary Block Title Text*/ .summary-title { letter-spacing: 0.2em; text-transform: uppercase; font-weight: 600; }
+.homepage .Index-page--has-image:first-of-type .Index-page-content {
+	padding-bottom: 0;
+}
 
-/*Newsletter header text*/ .sqs-alternate-block-style-container .newsletter-block .newsletter-form-wrapper .newsletter-form-header-title { color: #213629; font-size: 37px; } /*Newsletter subtext*/ .newsletter-block .newsletter-form-header-description p { font-size: inherit; } /*Newsletter signup input field*/ .newsletter-block .newsletter-form-field-element, .newsletter-block .newsletter-form-field-element:focus { background-color: #f4f2ef; border: none!important; height: 39px; padding: 13px 26px; vertical-align: top; } /*Newsletter signup submit button*/ .sqs-alternate-block-style-container .newsletter-block .newsletter-form-wrapper .newsletter-form-button { background-color: #213629; border: none!important; font-size: 10.5px; font-weight: 400; height: 39px; letter-spacing: .25em; padding: 13px 26px; vertical-align: top; } @media screen and (max-width: 767px){ /*Fix mobile issue with newsletter form*/ .sqs-alternate-block-style-container .newsletter-block .newsletter-form-wrapper.newsletter-form-wrapper--alignCenter.newsletter-form-wrapper { padding: 4em 2em 3em; }
 
-/*Remove border from footer menu*/ .Footer-blocks h3 a { border: none; }}
+/*Summary Block Title Text*/
 
-/*Customize case studies hover*/ .collection-type-gallery.gallery-design-grid .slide>a:hover + .slide-meta { opacity: 1; } .collection-type-gallery.gallery-design-grid .slide .slide-meta p { color: #fff; font-size: 14px; font-weight: 500; letter-spacing: 3px; position: absolute; top: 50%; left: 50%; text-align: center; text-transform: uppercase; -ms-transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 90%; } .collection-type-gallery.gallery-design-grid .slide .slide-meta { background: rgba(0, 0, 0, 0.5); display: block; opacity: 0; pointer-events: none; position: absolute; top: 0; bottom: 0; left: 0; right: 0; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2 ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+.summary-title {
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	font-weight: 600;
+}
 
-/*Style contact button*/ .button.sqs-system-button.sqs-editable-button { font-size: 11px; } /*Style contact form*/ .form-wrapper .field-list .field .field-element, .form-wrapper .field-list .field .field-element:focus { border-radius: 0; background: #728574; border: none; }
 
-/*Change excerpt text alignment*/ .BlogList-item-excerpt p { text-align: center; } /*Set max width of blog post title + margin bottom*/ .BlogList-item-title { max-width: 600px; margin: 0 auto 30px; }
+/*Newsletter header text*/
+
+.sqs-alternate-block-style-container .newsletter-block .newsletter-form-wrapper .newsletter-form-header-title {
+	color: #213629;
+	font-size: 37px;
+}
+
+
+/*Newsletter subtext*/
+
+.newsletter-block .newsletter-form-header-description p {
+	font-size: inherit;
+}
+
+
+/*Newsletter signup input field*/
+
+.newsletter-block .newsletter-form-field-element,
+.newsletter-block .newsletter-form-field-element:focus {
+	background-color: #f4f2ef;
+	border: none!important;
+	height: 39px;
+	padding: 13px 26px;
+	vertical-align: top;
+}
+
+
+/*Newsletter signup submit button*/
+
+.sqs-alternate-block-style-container .newsletter-block .newsletter-form-wrapper .newsletter-form-button {
+	background-color: #213629;
+	border: none!important;
+	font-size: 10.5px;
+	font-weight: 400;
+	height: 39px;
+	letter-spacing: .25em;
+	padding: 13px 26px;
+	vertical-align: top;
+}
+
+@media screen and (max-width: 767px) {
+	/*Fix mobile issue with newsletter form*/
+	.sqs-alternate-block-style-container .newsletter-block .newsletter-form-wrapper.newsletter-form-wrapper--alignCenter.newsletter-form-wrapper {
+		padding: 4em 2em 3em;
+	}
+	/*Remove border from footer menu*/
+	.Footer-blocks h3 a {
+		border: none;
+	}
+}
+
+
+/*Customize case studies hover*/
+
+.collection-type-gallery.gallery-design-grid .slide>a:hover+.slide-meta {
+	opacity: 1;
+}
+
+.collection-type-gallery.gallery-design-grid .slide .slide-meta p {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	text-transform: uppercase;
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 90%;
+}
+
+.collection-type-gallery.gallery-design-grid .slide .slide-meta {
+	background: rgba(0, 0, 0, 0.5);
+	display: block;
+	opacity: 0;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2 ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+
+/*Style contact button*/
+
+.button.sqs-system-button.sqs-editable-button {
+	font-size: 11px;
+}
+
+
+/*Style contact form*/
+
+.form-wrapper .field-list .field .field-element,
+.form-wrapper .field-list .field .field-element:focus {
+	border-radius: 0;
+	background: #728574;
+	border: none;
+}
+
+
+/*Change excerpt text alignment*/
+
+.BlogList-item-excerpt p {
+	text-align: center;
+}
+
+
+/*Set max width of blog post title + margin bottom*/
+
+.BlogList-item-title {
+	max-width: 600px;
+	margin: 0 auto 30px;
+}
 
 ::selection {
-  background: #7ecf9d; /* WebKit/Blink Browsers */
+	background: #7ecf9d;
+	/* WebKit/Blink Browsers */
 }
-::-moz-selection {
-  background: #7ecf9d; /* Gecko Browsers */
 
- }
+::-moz-selection {
+	background: #7ecf9d;
+	/* Gecko Browsers */
+}
+
+@media screen and (max-width: 640px) {
+    
+    #landing .row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+}
